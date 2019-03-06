@@ -38,7 +38,7 @@ body {
     border-radius: 50%;
     position: absolute;
     z-index: 1000;
-    top: calc(30px + 3.5vw);
+    top: calc(20px + 3vw);
     left: 11.5vw;
     height: 7vw;
     width: 7vw;
@@ -57,7 +57,7 @@ body {
 }
 
 img.profile-pic {
-    padding: calc(30px + 3.5vw);
+    padding: calc(20px + 3vw);
     border-radius: 50%;
     width: 7vw;
     height: 7vw;
