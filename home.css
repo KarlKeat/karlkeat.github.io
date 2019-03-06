@@ -28,6 +28,16 @@ body {
     to   { opacity: 1; transform: translateY(0);}
 }
 
+#profile-holder {
+    position: relative;
+    padding: calc(30px + 3vw);
+    width: 7vw;
+    height: 7vw;
+
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
 #social-box {
     padding-top: calc(10px + 2vw);
     user-select: none;
@@ -39,13 +49,17 @@ body {
     justify-content: center;
     border-radius: 50%;
     position: absolute;
+    
     z-index: 1000;
+
     top: calc(30px + 3vw);
-    left: 11.5vw;
+    left: calc(30px + 3vw);
+
     height: 7vw;
     width: 7vw;
     min-width: 10vh;
     min-height: 10vh;
+
     background-color: rgb(120, 187, 226);
     color: white;
     font-family: 'Dosis', sans-serif;
@@ -59,8 +73,8 @@ body {
 }
 
 img.profile-pic {
-    padding: calc(30px + 3vw);
     border-radius: 50%;
+
     width: 7vw;
     height: 7vw;
 
