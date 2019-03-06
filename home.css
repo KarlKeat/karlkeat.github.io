@@ -1,0 +1,89 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+#center-box {
+    background-color: #fcfcfc;
+    border-radius: 1%;
+    width: 30vw;
+    height: 32vw;
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(-1vh);}
+    to   { opacity: 1; transform: translateY(0);}
+}
+
+#social-box {
+    padding-top: 2vw;
+    user-select: none;
+}
+
+#about-me-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1000;
+    top: 4vw;
+    left: 11.5vw;
+    height: 7vw;
+    width: 7vw;
+    background-color: rgb(120, 187, 226);
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2vw;
+    opacity: 0;
+}
+
+#about-me-overlay:hover {
+    transition: ease-in .3s;
+    opacity: .7;
+}
+
+img.profile-pic {
+    padding: 4vw;
+    border-radius: 50%;
+    width: 7vw;
+    height: 7vw;
+    user-select: none;
+}
+
+span.nametag {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    color: #333333;
+    display: block;
+    padding: 1vw;
+}
+
+span.subtitle {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
+.socialbutton {
+    padding: .5vw;
+    filter: brightness(1);
+    width: 3vw;
+    height: 3vw;
+}
+
+.socialbutton:hover {
+    filter: brightness(.25);
+    transition: .3s ease-in-out;
+}
