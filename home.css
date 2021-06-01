@@ -99,11 +99,13 @@ span.subtitle {
     letter-spacing: 2px;
     color: #333333;
 }
-span.subtitle:hover {
-    color: #f0f0f0;
-}
+
 a.subtitle {
+    color: #333333;
     text-decoration: none;
+}
+a.subtitle:hover {
+    color: #f0f0f0;
 }
 
 .socialbutton {
