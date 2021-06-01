@@ -101,15 +101,10 @@ span.subtitle {
 
 a.subtitle {
     text-decoration: none;
-    color: #404040;
+    color: #000000;
 }
 a.subtitle:hover {
-    text-decoration: none;
-    color: #404040;
     text-decoration: underline;
-}
-span.subtitle:hover {
-    color: #000000;
 }
 
 .socialbutton {
