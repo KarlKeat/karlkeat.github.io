@@ -102,6 +102,7 @@ span.subtitle {
 
 a.subtitle {
     text-decoration: none;
+    color: #cfcfcf;
 }
 a.subtitle:hover {
     color: #333333;
