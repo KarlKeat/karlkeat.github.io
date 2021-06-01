@@ -103,9 +103,13 @@ a.subtitle {
     text-decoration: none;
     color: #404040;
 }
+a.subtitle:hover {
+    text-decoration: none;
+    color: #404040;
+    text-decoration: underline;
+}
 span.subtitle:hover {
     color: #000000;
-    text-decoration: underline;
 }
 
 .socialbutton {
