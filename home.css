@@ -97,11 +97,10 @@ span.subtitle {
     font-family: 'Dosis', sans-serif;
     font-size: calc(14px + .5vw);;
     letter-spacing: 2px;
-    color: #333333;
+    color: #cfcfcf;
 }
 
 a.subtitle {
-    color: #cfcfcf;
     text-decoration: none;
 }
 a.subtitle:hover {
